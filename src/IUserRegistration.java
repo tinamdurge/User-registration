@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class IUserRegistration {
+@FunctionalInterface
+interface IUserRegistration {
+    boolean validate(String data) throws UserRegistrationException;
 }
